@@ -13,6 +13,18 @@ public interface IExampleStatemachine extends ITimerCallback,IStatemachine {
 		
 		public void raiseBlack();
 		
+		public void raiseRed();
+		
+		public void raiseGreen();
+		
+		public long getGreenCount();
+		
+		public void setGreenCount(long value);
+		
+		public long getRedCount();
+		
+		public void setRedCount(long value);
+		
 		public long getWhiteTime();
 		
 		public void setWhiteTime(long value);
